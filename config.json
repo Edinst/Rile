@@ -1,7 +1,7 @@
 {
 	"facebookAccount": {
-		"email": "ediide909@gmail.com",
-		"password": "zenithback10877",
+		"email": "bhrzzoejv@icznn.com",
+		"password": "fiona123",
 		"2FASecret": "",
 		"i_user": "",
 		"proxy": null,
@@ -16,14 +16,14 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": ["100078690213463"],
+	"adminBot": ["100062859976905"],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
 		"notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
 	},
-	"nickNameBot": "miku remake | Zenith account",
-	"prefix": "#",
+	"nickNameBot": "fiona | tester",
+	"prefix": ".",
 	"database": {
 		"type": "sqlite",
 		"uriMongodb": "",
