@@ -314,7 +314,9 @@ try {
 
 const userData = await usersData.get(event.senderID);
 
-    const reward = 350; //change reward here for correct answers
+    const rewards = ["150", "200", "250", "300"];
+const rw = Math.floor(Math.random() * rewards.length);
+const reward = rewards[rw]; //change reward here for correct answers
 
     const id = event.senderID;
     const name = (await usersData.get(id)).name;
@@ -409,11 +411,9 @@ const junn = Math.floor(Math.random() * creditt.length);
 
     const userData = await usersData.get(event.userID);
 
-   
-    const reward = ["150", "200", "250", "300"];
-const rw = Math.floor(Math.random() * rewards.length);
-const reward = rewards[rw];
-*/
+       const r = ["150", "200", "250", "300"];
+const rp = Math.floor(Math.random() * r.length);
+const reward1 = r[rp];
     
     
     const id = event.userID;
@@ -427,7 +427,7 @@ const reward = rewards[rw];
     const answer = fuck;
 
     if (answer === fakyu) {
-      userData.money += reward;
+      userData.money += reward1;
       await usersData.set(event.userID, userData);  
 const playerid = event.userID;
       const correctorwrong = 'correct';
